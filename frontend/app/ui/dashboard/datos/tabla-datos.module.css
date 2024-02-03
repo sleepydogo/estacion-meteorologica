@@ -1,0 +1,46 @@
+.container {
+    background-color: var(--bgSoft);    
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-weight: 200;
+    color: var(--textSoft);
+}
+
+.table {
+    width: 100%;
+
+}
+
+.table td{
+    padding: 10px;
+}
+
+.status {
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+    width: 40px;
+}
+
+.hot {
+    background-color: crimson;
+}
+
+.middle {
+    background-color: #f7737375;
+}
+
+.cold {
+    background-color: lightskyblue;
+}
+
+.reallycold {
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,8 @@
+.result { 
+    padding: 10px 20px;
+}
+
+.result:hover {
+    background-color: #5d57c9;
+    color: white;
+}
