@@ -14,9 +14,12 @@ const Dashboard = () => {
   useEffect(() => {
     const obtenerDatos = async () => {
       try {
-        const responseCards = await fetchWithGet('api/datos/1');
-        const responseTrips = await fetchWithGet('api/datos/');
-        
+        let responseCards = await fetchWithGet('api/datos/1');
+        let responseTrips = await fetchWithGet('api/datos/');
+        responseTrips = responseTrips.reverse()
+        responseCards = responseTrips[0]
+
+
         setCardData(responseCards);
         setTableData(responseTrips);
         console.log(card_data);
@@ -34,12 +37,14 @@ const Dashboard = () => {
     <div className={styles.wrapper}>
       <div className={styles.main}>
         <div className={styles.cards}>
-          <Card title="Temperatura" number={card_data.temperatura + '°C'} porcentaje='12%' description='mas que la semana pasada'/>
-          <Card title="Humedad" number={card_data.humedad + '%'}  porcentaje='33%' description='menos que la semana pasada'/>
-          <Card title="Humedad del suelo" number={card_data.hum_suelo + '%'} porcentaje='25%' description='mas que la semana pasada'/>
+          <Card title="Temperatura" number={card_data.TA + '°C'} porcentaje='12%' description='mas que la semana pasada' />
+          <Card title="Humedad" number={card_data.HA + '%'} porcentaje='33%' description='menos que la semana pasada' />
+          <Card title="Humedad del suelo" number={card_data.HS + '%'} porcentaje='25%' description='mas que la semana pasada' />
+          <Card title="Temperatura del suelo" number={card_data.TS + '°C'} porcentaje='15%' description='mas que la semana pasada' />
         </div>
-        <TablaDatos data={table_data}/>
         <Chart data={table_data} />
+        <TablaDatos data={table_data} />
+
       </div>
     </div>
   );

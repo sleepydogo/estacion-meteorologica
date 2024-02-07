@@ -53,37 +53,35 @@ const TablaDatos = ({ data }) => {
                 <td>{formatHora(dato.fecha)}</td>
                 <td>
                   <span
-                    className={`${styles.status} ${
-                      dato.temperatura >= 30
+                    className={`${styles.status} ${dato.TA >= 30
                         ? styles.hot
-                        : 30 >= dato.temperatura >= 10
-                        ? styles.middle
-                        : 10 >= dato.temperatura >= 0
-                        ? styles.cold
-                        : styles.reallycold
-                    }`}
+                        : 30 >= dato.TA >= 10
+                          ? styles.middle
+                          : 10 >= dato.TA >= 0
+                            ? styles.cold
+                            : styles.reallycold
+                      }`}
                   >
-                    {dato.temperatura} °C
+                    {dato.TA} °C
                   </span>
                 </td>
-                <td>{dato.humedad} %</td>
+                <td>{dato.HA} %</td>
                 <td>
                   {" "}
                   <span
-                    className={`${styles.status} ${
-                      dato.temp_suelo >= 30
+                    className={`${styles.status} ${dato.temp_suelo >= 30
                         ? styles.hot
-                        : 30 >= dato.temp_suelo >= 10
-                        ? styles.middle
-                        : 10 >= dato.temp_suelo >= 0
-                        ? styles.cold
-                        : styles.reallycold
-                    }`}
+                        : 30 >= dato.TS >= 10
+                          ? styles.middle
+                          : 10 >= dato.tS >= 0
+                            ? styles.cold
+                            : styles.reallycold
+                      }`}
                   >
-                    {dato.temp_suelo} °C
+                    {dato.TS} °C
                   </span>
                 </td>
-                <td>{dato.hum_suelo} %</td>
+                <td>{dato.HS} %</td>
               </tr>
             ))}
         </tbody>

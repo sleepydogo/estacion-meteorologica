@@ -26,10 +26,10 @@ const Chart = ({ data }) => {
       const formatData = data.map((item) => ({
         name: formatFecha(item.fecha) + formatHora(item.fecha),
         Fecha: formatFecha(item.fecha), // Renombrar y formatear la fecha
-        Temperatura: item.temperatura,
-        Humedad: item.humedad,
-        "Temperatura Suelo": item.temp_suelo,
-        "Humedad Suelo": item.hum_suelo,
+        Temperatura: item.TA,
+        Humedad: item.HA,
+        "Temperatura Suelo": item.TS,
+        "Humedad Suelo": item.HS,
       }));
       console.log(data);
       console.log(formatData);
