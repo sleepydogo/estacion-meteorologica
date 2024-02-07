@@ -1,0 +1,323 @@
+project/sensor/out/sensor.elf:10000888 0000000a b stringHF.14250
+project/sensor/out/sensor.elf:10000894 00000004 b heap_end.5864
+project/sensor/out/sensor.elf:1a0050c4 00000004 t InitClkStates
+project/sensor/out/sensor.elf:1a0050c8 00000074 t pinmuxing
+project/sensor/out/sensor.elf:1a00076c 00000044 t Board_LED_Init
+project/sensor/out/sensor.elf:1a0007b0 00000040 t Board_TEC_Init
+project/sensor/out/sensor.elf:1a0007f0 00000040 t Board_GPIO_Init
+project/sensor/out/sensor.elf:1a000830 00000030 t Board_ADC_Init
+project/sensor/out/sensor.elf:1a000860 00000038 t Board_SPI_Init
+project/sensor/out/sensor.elf:1a000898 00000024 t Board_I2C_Init
+project/sensor/out/sensor.elf:1a005140 00000008 t GpioButtons
+project/sensor/out/sensor.elf:1a005148 0000000c t GpioLeds
+project/sensor/out/sensor.elf:1a005154 00000012 t GpioPorts
+project/sensor/out/sensor.elf:1a000918 00000014 t Chip_SSP_GetClockIndex
+project/sensor/out/sensor.elf:1a00092c 00000018 t Chip_SSP_GetPeriphClockIndex
+project/sensor/out/sensor.elf:10000000 00000038 d i2c
+project/sensor/out/sensor.elf:1a000a4c 00000014 t Chip_ADC_GetClockIndex
+project/sensor/out/sensor.elf:1a000a60 00000032 t getClkDiv
+project/sensor/out/sensor.elf:1a00516c 00000048 t InitClkStates
+project/sensor/out/sensor.elf:1a000d84 000000a0 t pll_calc_divs
+project/sensor/out/sensor.elf:1a000e24 0000010c t pll_get_frac
+project/sensor/out/sensor.elf:1a000f30 0000004c t Chip_Clock_FindBaseClock
+project/sensor/out/sensor.elf:1a0011a4 00000022 t Chip_Clock_GetDivRate
+project/sensor/out/sensor.elf:10000898 00000008 b audio_usb_pll_freq
+project/sensor/out/sensor.elf:1a0051c0 0000006c t periph_to_base
+project/sensor/out/sensor.elf:1a001344 0000002c t Chip_UART_GetIndex
+project/sensor/out/sensor.elf:1a00522c 00000008 t UART_BClock
+project/sensor/out/sensor.elf:1a005234 00000008 t UART_PClock
+project/sensor/out/sensor.elf:10000038 00000004 d ClockSpeed
+project/sensor/out/sensor.elf:1a001534 00000034 t gpioObtainPinInit
+project/sensor/out/sensor.elf:100008a0 00000004 b callBackFuncParams
+project/sensor/out/sensor.elf:100008a8 00000008 b tickCounter
+project/sensor/out/sensor.elf:100008b0 00000004 b tickHookFunction
+project/sensor/out/sensor.elf:1a00532c 00000048 t lpcUarts
+project/sensor/out/sensor.elf:100008b4 00000004 b g_hUsb
+project/sensor/out/sensor.elf:1a001bc0 00000024 t dht11_TimeOutReset
+project/sensor/out/sensor.elf:1a001be4 00000020 t dht11_TimeOutCheck
+project/sensor/out/sensor.elf:1a001c04 000000a0 t dht11_ProcessData
+project/sensor/out/sensor.elf:1a001ca4 00000014 t dht11_GPIO_High
+project/sensor/out/sensor.elf:1a001cb8 00000020 t dht11_GPIO_Low
+project/sensor/out/sensor.elf:1a001cd8 00000014 t dht11_GPIO_Read
+project/sensor/out/sensor.elf:1a001cec 000000dc t dht11_StartRead
+project/sensor/out/sensor.elf:100008b8 00000004 b dht11Pin
+project/sensor/out/sensor.elf:100008bc 00000005 b dht11_byte
+project/sensor/out/sensor.elf:100008c4 00000148 b dht11_ticks_array
+project/sensor/out/sensor.elf:1a00371c 00000124 t quorem
+project/sensor/out/sensor.elf:1a004694 000000f8 t print_e
+project/sensor/out/sensor.elf:1a005478 0000000c t p05.7442
+project/sensor/out/sensor.elf:10000050 00000428 d impure_data
+project/sensor/out/sensor.elf:1a005488 t __init_array_end
+project/sensor/out/sensor.elf:1a005484 b __preinit_array_end
+project/sensor/out/sensor.elf:1a005484 t __init_array_start
+project/sensor/out/sensor.elf:1a005484 b __preinit_array_start
+project/sensor/out/sensor.elf:1a004fb8 00000040 T _mprec_log10
+project/sensor/out/sensor.elf:1a000fc8 0000001c T Chip_Clock_GetDividerSource
+project/sensor/out/sensor.elf:1a0026b4 00000012 T __aeabi_dcmple
+project/sensor/out/sensor.elf:1a003564 000000ba T strcpy
+project/sensor/out/sensor.elf:1a0001ba 00000002 W TIMER2_IRQHandler
+project/sensor/out/sensor.elf:1a0025f0 0000007a T __cmpdf2
+project/sensor/out/sensor.elf:1a000184 00000002 W DebugMon_Handler
+project/sensor/out/sensor.elf:1a0004ac 0000000c T GPIO_SetPinAsOutput
+project/sensor/out/sensor.elf:1a0001ba 00000002 W RIT_IRQHandler
+project/sensor/out/sensor.elf:1a000af8 00000016 T Chip_ADC_DeInit
+project/sensor/out/sensor.elf:1a080000 A __top_MFlashA512
+project/sensor/out/sensor.elf:1a0025f0 0000007a T __eqdf2
+project/sensor/out/sensor.elf:1a0001ba 00000002 W ADCHS_IRQHandler
+project/sensor/out/sensor.elf:1a000114 T __section_table_start
+project/sensor/out/sensor.elf:10000a48 00000004 B dht11_timeout
+project/sensor/out/sensor.elf:1a0001ba 00000002 W FLASH_EEPROM_IRQHandler
+project/sensor/out/sensor.elf:10000a4c 00000004 B dht11_timeout_max
+project/sensor/out/sensor.elf:1a002160 0000005a T __floatdidf
+project/sensor/out/sensor.elf:1a0001ba 00000002 W I2C0_IRQHandler
+project/sensor/out/sensor.elf:1a000910 00000008 T __stdio_init
+project/sensor/out/sensor.elf:10000a50 00000001 B __lock___atexit_recursive_mutex
+project/sensor/out/sensor.elf:1a00017a 00000002 W HardFault_Handler
+project/sensor/out/sensor.elf:1a000000 A __vectors_start__
+project/sensor/out/sensor.elf:1a000bc0 0000000c T Chip_ADC_SetResolution
+project/sensor/out/sensor.elf:1a003518 0000000c T __malloc_unlock
+project/sensor/out/sensor.elf:1a001998 0000002c T SysTick_Handler
+project/sensor/out/sensor.elf:1a0013c4 00000040 T Chip_UART_SetBaud
+project/sensor/out/sensor.elf:10000a54 00000001 B __lock___arc4random_mutex
+project/sensor/out/sensor.elf:1a00060c 00000002 W initialise_monitor_handles
+project/sensor/out/sensor.elf:1a0001ba 00000002 W SDIO_IRQHandler
+project/sensor/out/sensor.elf:1a0001ba 00000002 W ATIMER_IRQHandler
+project/sensor/out/sensor.elf:1a000186 00000002 W PendSV_Handler
+project/sensor/out/sensor.elf:1a000178 00000002 W NMI_Handler
+project/sensor/out/sensor.elf:1a0049a4 0000004c T _Balloc
+project/sensor/out/sensor.elf:1a005490 R __exidx_end
+project/sensor/out/sensor.elf:1a000150 T __data_section_table_end
+project/sensor/out/sensor.elf:1a0001ba 00000002 W I2C1_IRQHandler
+project/sensor/out/sensor.elf:1a0005b2 00000032 T DS18B20_Start
+project/sensor/out/sensor.elf:1a0001ba 00000002 W UART1_IRQHandler
+project/sensor/out/sensor.elf:1a0025e0 0000008a T __gtdf2
+project/sensor/out/sensor.elf:1a0001ba 00000002 W GPIO5_IRQHandler
+project/sensor/out/sensor.elf:1a0004a0 0000000c T GPIO_SetPinAsInput
+project/sensor/out/sensor.elf:1a0001ba 00000002 W CAN1_IRQHandler
+project/sensor/out/sensor.elf:53ff727e A __valid_user_code_checksum
+project/sensor/out/sensor.elf:1a005490 R _etext
+project/sensor/out/sensor.elf:1a00267c 00000010 T __aeabi_cdcmple
+project/sensor/out/sensor.elf:1a0001ba 00000002 W USB1_IRQHandler
+project/sensor/out/sensor.elf:1a0001ba 00000002 W I2S0_IRQHandler
+project/sensor/out/sensor.elf:1a0001ba 00000002 W TIMER3_IRQHandler
+project/sensor/out/sensor.elf:1a001246 0000000c T Chip_Clock_GetBaseClocktHz
+project/sensor/out/sensor.elf:1a0001ba 00000002 W UART0_IRQHandler
+project/sensor/out/sensor.elf:1a0001a8 00000012 T bss_init
+project/sensor/out/sensor.elf:1a003338 00000134 T memcpy
+project/sensor/out/sensor.elf:1a00266c 00000020 T __aeabi_cdrcmple
+project/sensor/out/sensor.elf:1a0001ba 00000002 W SGPIO_IRQHandler
+project/sensor/out/sensor.elf:1a0020e8 00000022 T __floatsidf
+project/sensor/out/sensor.elf:1a0025e8 00000082 T __ltdf2
+project/sensor/out/sensor.elf:1a002790 T __aeabi_uldivmod
+project/sensor/out/sensor.elf:10000a74 ? _noinit
+project/sensor/out/sensor.elf:1a001a86 00000016 T uartWriteString
+project/sensor/out/sensor.elf:10000a40 00000004 B SystemCoreClock
+project/sensor/out/sensor.elf:1a001370 00000054 T Chip_UART_Init
+project/sensor/out/sensor.elf:1a0001ba 00000002 W ADC0_IRQHandler
+project/sensor/out/sensor.elf:1a000aa0 00000018 T readAdcVal
+project/sensor/out/sensor.elf:1a001dd8 0000006c T dht11Read
+project/sensor/out/sensor.elf:1a0053b0 000000c8 T __mprec_tens
+project/sensor/out/sensor.elf:1a000180 00000002 W UsageFault_Handler
+project/sensor/out/sensor.elf:1a0012f8 0000004c T Chip_Clock_GetRate
+project/sensor/out/sensor.elf:1a0001ba 00000002 W GPIO6_IRQHandler
+project/sensor/out/sensor.elf:10000a3c 00000004 B __malloc_top_pad
+project/sensor/out/sensor.elf:1a0006f4 0000006c T Board_SetupClocking
+project/sensor/out/sensor.elf:20008000 A __top_RamAHB32
+project/sensor/out/sensor.elf:1a0020c8 0000001e T __aeabi_ui2d
+project/sensor/out/sensor.elf:1a004b30 00000012 T __i2b
+project/sensor/out/sensor.elf:1a0027c0 000002d0 T __udivmoddi4
+project/sensor/out/sensor.elf:1a001e44 T __aeabi_drsub
+project/sensor/out/sensor.elf:1a00069c 00000020 T _sbrk_r
+project/sensor/out/sensor.elf:1a00513c 00000004 T ExtRateIn
+project/sensor/out/sensor.elf:1a0001ba 00000002 W IntDefaultHandler
+project/sensor/out/sensor.elf:1a000300 T __CRP_WORD_END__
+project/sensor/out/sensor.elf:1a0026a0 00000012 T __aeabi_dcmplt
+project/sensor/out/sensor.elf:1a0001ba 00000002 W GPIO1_IRQHandler
+project/sensor/out/sensor.elf:10000a34 00000004 B __malloc_max_sbrked_mem
+project/sensor/out/sensor.elf:1a0005e4 00000028 T DS18B20_GetTemperature
+project/sensor/out/sensor.elf:1a00210c 00000042 T __extendsfdf2
+project/sensor/out/sensor.elf:1a002410 000001d0 T __aeabi_ddiv
+project/sensor/out/sensor.elf:1a0001ba 00000002 W SSP0_IRQHandler
+project/sensor/out/sensor.elf:1a001e50 00000276 T __adddf3
+project/sensor/out/sensor.elf:1a005488 R __exidx_start
+project/sensor/out/sensor.elf:10000a58 00000001 B __lock___env_recursive_mutex
+project/sensor/out/sensor.elf:1a0021bc 00000254 T __aeabi_dmul
+project/sensor/out/sensor.elf:1a0002fc 00000004 T CRP_WORD
+project/sensor/out/sensor.elf:1a000a92 0000000e T setStartMode
+project/sensor/out/sensor.elf:10000a5c 00000001 B __lock___sinit_recursive_mutex
+project/sensor/out/sensor.elf:1a002d78 00000048 T __libc_init_array
+project/sensor/out/sensor.elf:1a005388 00000028 T __mprec_bigtens
+project/sensor/out/sensor.elf:1a0017e8 000000b8 T adcInit
+project/sensor/out/sensor.elf:1a0020c8 0000001e T __floatunsidf
+project/sensor/out/sensor.elf:1a0001ba 00000002 W ADC1_IRQHandler
+project/sensor/out/sensor.elf:1a004dc8 00000038 T __mcmp
+project/sensor/out/sensor.elf:1a0008e0 00000030 T Board_Init
+project/sensor/out/sensor.elf:1a00069a 00000002 W _init
+project/sensor/out/sensor.elf:1a000114 T __data_section_table
+project/sensor/out/sensor.elf:1a0026f0 0000009e T __aeabi_d2f
+project/sensor/out/sensor.elf:1a0001ba 00000002 W RTC_IRQHandler
+project/sensor/out/sensor.elf:10000a74 B _ebss
+project/sensor/out/sensor.elf:1a000bcc 0000002a T Chip_ADC_EnableChannel
+project/sensor/out/sensor.elf:1a0001ba 00000002 W TIMER0_IRQHandler
+project/sensor/out/sensor.elf:1a000610 00000088 T Reset_Handler
+project/sensor/out/sensor.elf:1a00191c 0000007c T tickInit
+project/sensor/out/sensor.elf:20010000 A __top_RamAHB_ETB16
+project/sensor/out/sensor.elf:1a0001ba 00000002 W SPI_IRQHandler
+project/sensor/out/sensor.elf:1a004a90 00000040 T __hi0bits
+project/sensor/out/sensor.elf:1a000a10 00000038 T Chip_I2C_SetClockRate
+project/sensor/out/sensor.elf:1a005058 0000004e T __fixdfsi
+project/sensor/out/sensor.elf:1a0001ba 00000002 W LCD_IRQHandler
+project/sensor/out/sensor.elf:1a000f7c 0000004c T Chip_Clock_EnableCrystal
+project/sensor/out/sensor.elf:10000a60 00000001 B __lock___malloc_recursive_mutex
+project/sensor/out/sensor.elf:1a0004b8 00000048 T DS18B20_Init
+project/sensor/out/sensor.elf:1a000b0e 00000008 T Chip_ADC_ReadValue
+project/sensor/out/sensor.elf:10008000 A __top_RamLoc32
+project/sensor/out/sensor.elf:1a001e50 00000276 T __aeabi_dadd
+project/sensor/out/sensor.elf:1a00018a 0000001e T data_init
+project/sensor/out/sensor.elf:1a0025e8 00000082 T __ledf2
+project/sensor/out/sensor.elf:1a003524 0000003e T strcat
+project/sensor/out/sensor.elf:1a000b6e 00000020 T Chip_ADC_SetStartMode
+project/sensor/out/sensor.elf:1a004c74 000000a0 T __pow5mult
+project/sensor/out/sensor.elf:1a002150 0000006a T __aeabi_ul2d
+project/sensor/out/sensor.elf:1a0001ba 00000002 W TIMER1_IRQHandler
+project/sensor/out/sensor.elf:1a0009ec 00000024 T Chip_I2C_Init
+project/sensor/out/sensor.elf:1a002dc4 00000002 T __retarget_lock_release_recursive
+project/sensor/out/sensor.elf:1a0001ba 00000002 W UART2_IRQHandler
+project/sensor/out/sensor.elf:1a001138 0000006c T Chip_Clock_GetMainPLLHz
+project/sensor/out/sensor.elf:1a00523c 000000e6 T gpioPinsInit
+project/sensor/out/sensor.elf:1a001a6c 0000001a T uartWriteByte
+project/sensor/out/sensor.elf:1a000944 00000012 T Chip_SSP_SetClockRate
+project/sensor/out/sensor.elf:1a0026dc 00000012 T __aeabi_dcmpgt
+project/sensor/out/sensor.elf:1a0001ba 00000002 W GPIO2_IRQHandler
+project/sensor/out/sensor.elf:1a002b8c 000001ec T _free_r
+project/sensor/out/sensor.elf:1a0018a0 00000058 T adcRead
+project/sensor/out/sensor.elf:1a001220 00000026 T Chip_Clock_GetBaseClock
+project/sensor/out/sensor.elf:1a0026c8 00000012 T __aeabi_dcmpge
+project/sensor/out/sensor.elf:1a001dc8 00000010 T dht11Init
+project/sensor/out/sensor.elf:10000888 B _bss
+project/sensor/out/sensor.elf:1a000b16 00000036 T Chip_ADC_ReadStatus
+project/sensor/out/sensor.elf:1a000b8e 00000032 T Chip_ADC_SetSampleRate
+project/sensor/out/sensor.elf:1a001e4c 0000027a T __aeabi_dsub
+project/sensor/out/sensor.elf:10000880 00000004 D __malloc_sbrk_base
+project/sensor/out/sensor.elf:1a002150 0000006a T __floatundidf
+project/sensor/out/sensor.elf:1a004790 00000214 T _gcvt
+project/sensor/out/sensor.elf:1a004d14 000000b2 T __lshift
+project/sensor/out/sensor.elf:1a0001ba 00000002 W I2S1_IRQHandler
+project/sensor/out/sensor.elf:1a000956 0000003e T Chip_SSP_SetBitRate
+project/sensor/out/sensor.elf:1a000a48 00000002 T Chip_GPIO_Init
+project/sensor/out/sensor.elf:1a005168 00000004 T OscRateIn
+project/sensor/out/sensor.elf:1a0019f0 0000007c T uartInit
+project/sensor/out/sensor.elf:1a004b44 00000130 T __multiply
+project/sensor/out/sensor.elf:10000a74 ? _end_noinit
+project/sensor/out/sensor.elf:10008000 A _vStackTop
+project/sensor/out/sensor.elf:10000a0c 00000028 B __malloc_current_mallinfo
+project/sensor/out/sensor.elf:1a004ef8 000000be T __d2b
+project/sensor/out/sensor.elf:1a0001ba 00000002 W SSP1_IRQHandler
+project/sensor/out/sensor.elf:1a000178 T __bss_section_table_end
+project/sensor/out/sensor.elf:1a0020e8 00000022 T __aeabi_i2d
+project/sensor/out/sensor.elf:1a001568 000001ac T gpioInit
+project/sensor/out/sensor.elf:1a002a90 00000002 W __aeabi_ldiv0
+project/sensor/out/sensor.elf:1a002410 000001d0 T __divdf3
+project/sensor/out/sensor.elf:10000478 00000408 D __malloc_av_
+project/sensor/out/sensor.elf:1a0021bc 00000254 T __muldf3
+project/sensor/out/sensor.elf:1a001a9c 0000001c T USB0_IRQHandler
+project/sensor/out/sensor.elf:1a0012c4 00000034 T Chip_Clock_Disable
+project/sensor/out/sensor.elf:1a0001ba 00000002 W GPIO3_IRQHandler
+project/sensor/out/sensor.elf:1a00350c 0000000c T __malloc_lock
+project/sensor/out/sensor.elf:1a0001ba 00000002 W SCT_IRQHandler
+project/sensor/out/sensor.elf:1a004ff8 0000005e T _calloc_r
+project/sensor/out/sensor.elf:1a000fe4 0000001c T Chip_Clock_GetDividerDivisor
+project/sensor/out/sensor.elf:1a0002fc T __CRP_WORD_START__
+project/sensor/out/sensor.elf:1a002dc0 00000002 T __retarget_lock_acquire_recursive
+project/sensor/out/sensor.elf:1a00346c 000000a0 T memset
+project/sensor/out/sensor.elf:1a00017c 00000002 W MemManage_Handler
+project/sensor/out/sensor.elf:1a00035c 00000144 T main
+project/sensor/out/sensor.elf:10000a38 00000004 B __malloc_max_total_mem
+project/sensor/out/sensor.elf:1a0001ba 00000002 W WDT_IRQHandler
+project/sensor/out/sensor.elf:2000c000 A __top_RamAHB16
+project/sensor/out/sensor.elf:1008a000 A __top_RamLoc40
+project/sensor/out/sensor.elf:1a000182 00000002 W SVC_Handler
+project/sensor/out/sensor.elf:1a0026f0 0000009e T __truncdfsf2
+project/sensor/out/sensor.elf:1a003840 00000e54 T _dtoa_r
+project/sensor/out/sensor.elf:1a002dc8 00000570 T _malloc_r
+project/sensor/out/sensor.elf:1a002160 0000005a T __aeabi_l2d
+project/sensor/out/sensor.elf:1a0019c4 00000018 T uartTxReady
+project/sensor/out/sensor.elf:1a0001ba 00000002 W GPIO7_IRQHandler
+project/sensor/out/sensor.elf:1a001254 0000003c T Chip_Clock_EnableOpts
+project/sensor/out/sensor.elf:1a000550 00000062 T DS18B20_WriteData
+project/sensor/out/sensor.elf:1a002aec 000000a0 T _malloc_trim_r
+project/sensor/out/sensor.elf:1a001000 000000b8 T Chip_Clock_GetClockInputHz
+project/sensor/out/sensor.elf:1a0010b8 00000080 T Chip_Clock_CalcMainPLLValue
+project/sensor/out/sensor.elf:1a0014e0 00000038 T SystemInit
+project/sensor/out/sensor.elf:1a0001ba 00000002 W SPIFI_IRQHandler
+project/sensor/out/sensor.elf:1a001b88 00000038 T delay
+project/sensor/out/sensor.elf:1a0001ba 00000002 W QEI_IRQHandler
+project/sensor/out/sensor.elf:1a000150 T __bss_section_table
+project/sensor/out/sensor.elf:1a0025f0 0000007a T __nedf2
+project/sensor/out/sensor.elf:1a001714 0000006a T gpioWrite
+project/sensor/out/sensor.elf:1a000698 00000002 W _fini
+project/sensor/out/sensor.elf:1a000ab8 00000040 T Chip_ADC_Init
+project/sensor/out/sensor.elf:10000a44 00000004 B g_pUsbApi
+project/sensor/out/sensor.elf:1a0006bc 00000038 T Board_SetupMuxing
+project/sensor/out/sensor.elf:1a001404 000000dc T Chip_UART_SetBaudFDR
+project/sensor/out/sensor.elf:1a0018f8 0000000c T tickRead
+project/sensor/out/sensor.elf:10000040 00000008 D tickRateMS
+project/sensor/out/sensor.elf:1a000bf6 00000022 T Chip_ADC_SetBurstCmd
+project/sensor/out/sensor.elf:1a0001ba 00000002 W ETH_IRQHandler
+project/sensor/out/sensor.elf:10000048 00000004 D _impure_ptr
+project/sensor/out/sensor.elf:10000000 ? _end_uninit_RESERVED
+project/sensor/out/sensor.elf:1a0019dc 00000014 T uartTxWrite
+project/sensor/out/sensor.elf:1a0001ba 00000002 W CAN0_IRQHandler
+project/sensor/out/sensor.elf:10000000 D _data
+project/sensor/out/sensor.elf:10000a74 B _pvHeapStart
+project/sensor/out/sensor.elf:1a000178 T __section_table_end
+project/sensor/out/sensor.elf:1a000994 00000038 T Chip_SSP_Init
+project/sensor/out/sensor.elf:1a0001ba 00000002 W GINT0_IRQHandler
+project/sensor/out/sensor.elf:1a0001ba 00000002 W DAC_IRQHandler
+project/sensor/out/sensor.elf:1a0008bc 00000024 T Board_Debug_Init
+project/sensor/out/sensor.elf:1a00268c 00000012 T __aeabi_dcmpeq
+project/sensor/out/sensor.elf:1a000b4c 00000022 T Chip_ADC_Int_SetChannelCmd
+project/sensor/out/sensor.elf:10000888 D _edata
+project/sensor/out/sensor.elf:1a0009cc 00000020 T Chip_I2C_EventHandler
+project/sensor/out/sensor.elf:1a0001ba 00000002 W M0SUB_IRQHandler
+project/sensor/out/sensor.elf:10000a64 00000001 B __lock___at_quick_exit_mutex
+project/sensor/out/sensor.elf:1a000500 00000050 T DS18B20_ReadData
+project/sensor/out/sensor.elf:1a000c18 00000158 T Chip_SetupCoreClock
+project/sensor/out/sensor.elf:1a0001ba 00000002 W GPIO0_IRQHandler
+project/sensor/out/sensor.elf:10000884 00000004 D __malloc_trim_threshold
+project/sensor/out/sensor.elf:1a000000 00000040 T g_pfnVectors
+project/sensor/out/sensor.elf:1a000d70 00000014 T SystemCoreClockUpdate
+project/sensor/out/sensor.elf:1a004e00 000000f8 T __mdiff
+project/sensor/out/sensor.elf:1a005058 0000004e T __aeabi_d2iz
+project/sensor/out/sensor.elf:1a0001ba 00000002 W DMA_IRQHandler
+project/sensor/out/sensor.elf:1a0001ba 00000002 W EVRT_IRQHandler
+project/sensor/out/sensor.elf:1b080000 A __top_MFlashB512
+project/sensor/out/sensor.elf:1a002a94 00000058 T gcvt
+project/sensor/out/sensor.elf:1a001b2c 0000005c T delayInaccurateUs
+project/sensor/out/sensor.elf:1a002a90 00000002 W __aeabi_idiv0
+project/sensor/out/sensor.elf:1a00017e 00000002 W BusFault_Handler
+project/sensor/out/sensor.elf:10000a68 00000001 B __lock___dd_hash_mutex
+project/sensor/out/sensor.elf:10000a6c 00000001 B __lock___tz_mutex
+project/sensor/out/sensor.elf:1a003640 000000dc T strlen
+project/sensor/out/sensor.elf:1a001290 00000034 T Chip_Clock_Enable
+project/sensor/out/sensor.elf:1a00267c 00000010 T __aeabi_cdcmpeq
+project/sensor/out/sensor.elf:1a0025e0 0000008a T __gedf2
+project/sensor/out/sensor.elf:1a0001ba 00000002 W UART3_IRQHandler
+project/sensor/out/sensor.elf:1a0001ba 00000002 W MCPWM_IRQHandler
+project/sensor/out/sensor.elf:1a000300 0000005c T normalizar
+project/sensor/out/sensor.elf:1a0001ba 00000002 W M0APP_IRQHandler
+project/sensor/out/sensor.elf:1a00177e 00000068 T gpioRead
+project/sensor/out/sensor.elf:1a00210c 00000042 T __aeabi_f2d
+project/sensor/out/sensor.elf:1a001ab8 00000074 T boardInit
+project/sensor/out/sensor.elf:1a000040 000000d4 T g_pfnVendorVectors
+project/sensor/out/sensor.elf:1a001e4c 0000027a T __subdf3
+project/sensor/out/sensor.elf:1a0001ba 00000002 W GINT1_IRQHandler
+project/sensor/out/sensor.elf:1a004ad0 00000060 T __lo0bits
+project/sensor/out/sensor.elf:1a001904 00000018 T tickPowerSet
+project/sensor/out/sensor.elf:1a0011c8 00000058 T Chip_Clock_SetBaseClock
+project/sensor/out/sensor.elf:1a001518 0000001c T cyclesCounterInit
+project/sensor/out/sensor.elf:1a0001ba 00000002 W GPIO4_IRQHandler
+project/sensor/out/sensor.elf:10000a70 00000001 B __lock___sfp_recursive_mutex
+project/sensor/out/sensor.elf:1a000760 0000000c T Board_SystemInit
+project/sensor/out/sensor.elf:1a004a04 0000008a T __multadd
+project/sensor/out/sensor.elf:1a0049f0 00000012 T _Bfree
