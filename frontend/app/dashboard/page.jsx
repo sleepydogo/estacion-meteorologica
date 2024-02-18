@@ -31,6 +31,10 @@ const Dashboard = () => {
 
     // Llama a la función para obtener los datos cuando el componente se monta
     obtenerDatos();
+  
+    const intervalId = setInterval(obtenerDatos, 5000); // Actualiza los datos cada 5 segundos
+
+    return () => clearInterval(intervalId);
   }, []);
 
   return (
@@ -42,7 +46,7 @@ const Dashboard = () => {
           <Card title="Humedad del suelo" number={card_data.HS + '%'} porcentaje='25%' description='mas que la semana pasada' />
           <Card title="Temperatura del suelo" number={card_data.TS + '°C'} porcentaje='15%' description='mas que la semana pasada' />
         </div>
-        <Chart data={table_data} />
+        <Chart data={table_data.slice(0,10).reverse()} />
         <TablaDatos data={table_data} />
 
       </div>

@@ -1,4 +1,4 @@
-// File: C:\Users\Eme\OneDrive\Facultad\8vo Semestre\Taller de proyecto 1\estacion-meteorologica\frontend\app\dashboard\layout.jsx
+// File: /home/tom/universidad/estacion-meteorologica/frontend/app/dashboard/layout.jsx
 import * as entry from '../../../../app/dashboard/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
