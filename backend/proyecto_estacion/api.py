@@ -64,7 +64,8 @@ class DatoViewSet(viewsets.ModelViewSet):
             except Exception as e:
                 print("Error al decodificar de base64:", e)
                 return Response({"error": "Error al decodificar de base64"}, status=400)
-
-        # No devuelvas la respuesta de super().create para evitar conflictos
-        # return super().create(request, *args, **kwargs)
-        return Response({"success": "Datos guardados correctamente"}, status=201)
+            # No devuelvas la respuesta de super().create para evitar conflictos
+            # return super().create(request, *args, **kwargs)
+            return Response({"success": "Datos guardados correctamente"}, status=201)
+        else:
+            return Response({"Error": "Formato de datos incorrecto"}, status=401)

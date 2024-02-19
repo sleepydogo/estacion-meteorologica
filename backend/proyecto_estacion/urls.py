@@ -1,8 +1,13 @@
 from rest_framework import routers
 from .api import DatoViewSet
+from django.urls import path, include
 
-router = routers.DefaultRouter() #Modulo de drf para crear todas las urls
+router = routers.DefaultRouter() 
 
-router.register('api/datos', DatoViewSet, 'datos') #Se registra la url para acceder a los datos
+router.register('api/datos', DatoViewSet, 'datos') 
 
-urlpatterns = router.urls #Se guardan las urls en una variable para ser usadas en el archivo principal de urls
+urlpatterns = [
+    path('', include(router.urls)),
+]
+
+urlpatterns = router.urls 

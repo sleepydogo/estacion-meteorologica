@@ -15,9 +15,12 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-from django.urls import include #Se importa include para poder usar las urls de la app proyecto_estacion
+from django.urls import re_path, path, include
+
+from proyecto_estacion.consumers import MyConsumer 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('proyecto_estacion.urls')), #Se agrega la url de la app proyecto_estacion
+    re_path(r'^ws/endpoint/$', MyConsumer.as_asgi()),
 ]

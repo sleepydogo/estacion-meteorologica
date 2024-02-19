@@ -32,6 +32,8 @@ CORS_ALLOW_ALL_ORIGINS = True
 # Application definition
 
 INSTALLED_APPS = [
+    'daphne',
+    'channels',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -39,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'proyecto_estacion',
-    'rest_framework'    
+    'rest_framework',    
 ]
 
 MIDDLEWARE = [
@@ -70,9 +72,21 @@ TEMPLATES = [
         },
     },
 ]
+ASGI_APPLICATION = "estacion.asgi.application"
 
 WSGI_APPLICATION = 'estacion.wsgi.application'
 
+# Daphne
+
+
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            'hosts': [('localhost', 6379)],
+        },
+    },
+}
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
